@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Robot Control </title>
+    <style>
+    /* CSS comes here */
+
+    body {
+
+      background-image: url('R3.jpg');
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+     input[type=submit]{
+       width: 10%;
+       background-color: #FAA810;
+       color: black;
+       border: 2px solid  #010100;
+       padding: 10px;
+       font-size:20px;
+       cursor:pointer;
+       border-radius: 5px;
+       margin: 4px 30px 0px;
+      }
+
+      h1{
+        color: aliceblue;
+        width: 140px;
+        padding: 9px 22px;
+        font-size: 40px;
+        color: black;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        margin: 0;
+
+      }
+       #B{
+          border: 2px solid #010100;
+          background-color:#FAA810;
+          border-style: outset;
+          position: relative;
+          top: 410px;
+          left: -435px;
+
+        }
+        #F{
+          border: 2px solid #010100;
+          background-color:#FAA810;
+          border-style: outset;
+          position: relative;
+          top: 270px;
+          right: -359px;
+        }
+        #R{
+          border: 2px solid #010100;
+          background-color:#FAA810;
+          border-style: outset;
+          position: relative;
+          top: 340px;
+          left: -40px;
+        }
+        #L{
+          border: 2px solid #010100;
+          background-color:#FAA810;
+          border-style: outset;
+          position: relative;
+          top: 340px;
+          left: -40px;
+        }
+        #S{
+          border: 2px solid #010100;
+          background-color:#FAA810;
+          border-style: outset;
+          border-radius: 25px;
+          position: relative;
+          top: 340px;
+          left: -40px;
+        }
+
+    </style>
+</head>
+<body>
+<form action="database.php" method="get" >
+
+  <input  type="submit" name="Forward" id="F" value='Forward'/>
+
+  <input type="submit" name="Left" id="L" value='Left'/>
+
+  <input type="submit" name="Stop" id="S" value='Stop' />
+
+  <input type="submit" name="Right" id="R" value='Right'/>
+
+  <input type="submit" name="Backward" id="B" value='Backward'/>
+
+
+</form>
+</body>
+</html>
