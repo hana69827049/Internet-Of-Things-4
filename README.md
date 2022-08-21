@@ -15,3 +15,5 @@ I used the XMAPP programm for database phpmyadmin.
 I used the php file.
 
 4- Write an algorithm for linking the page with the movements.
+
+THAT'S IT, GOOD LUCK FOR ME...
